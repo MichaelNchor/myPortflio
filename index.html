@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Website-Brad</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">myPortfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title" style="background-color: rgba(0, 0, 0, 0.6)">Hi, it's me Nchor Michael Adingo</h2>
+                <p class="hero_desc" style="background-color: rgba(0, 0, 0, 0.6)">I am a Software Developer</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <center>
+                    <img src="images/profile-small.png" class= "imageAboutPage" alt="" style="margin-bottom: 15px; border-radius: 100%;">
+                </center>
+                </div>
+
+                <div class="col-lg-8">
+                    <p align="justify"> Result-driven, diligent, focused, persistent and positive in all endeavors. Prolific in combining 
+                        expertise in Information Technology and Mathematics to solve problems. Brilliant and 
+                        meticulous in producing excellent results.                        
+
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li><strong>Title, Name:</strong> Mr, Nchor Michael Adingo</li>
+                                <li><strong>Nationality:</strong> Ghanaian</li>  
+                                <li><strong>Age:</strong> 22</li>
+                                <li><strong>Date of Birth:</strong> 16th July, 2000</li>
+                                <li><strong>Home Address:</strong> B508/A26, Market Street</li>                                
+                                <li><strong>Place of Residence:</strong> Accra</li>                           
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <!-- <ul>
+                                <li>Name: David Parker</li>
+                                <li>Age: 28</li>
+                                <li>Occupation: Web Developer</li>
+
+                            </ul> -->
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- services section-->
+
+    <section id="services">
+        <div class="container">
+            <h1 class="text-center">Services</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h4 class="card-title mt-3">Software Development</h4>
+                            <p class="card-text mt-3" align="justify">Build applications in HTML, CSS (including Bootstrap and Tailwind), JavaScript, Node JS, React, p5.JS, Express JS and C# ASP.NET. 
+                                I'm more inclined to <strong> responsive Frontend Development </strong> but can set up backends with MySQL database and apply my knowledge in APIs.
+                                Core knowledge on application architecture and MVC pattern.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-layer-group'></i>
+                            <h4 class="card-title mt-3" >Graphic Design</h4>
+                            <p class="card-text mt-3" align="justify">Use of Adobe Photoshop, Camtasia and Canva to design posters, banners, brochures, videos etc.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='far servicesIcon fa-check-circle'></i>
+                            <h4 class="card-title mt-3">UI/UX Design</h4>
+                            <p class="card-text mt-3" align="justify">Wireframing and UI/UX design using Figma.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+<div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-search'></i>
+                            <h4 class="card-title mt-3">Mathematical Programming</h4>
+                            <p class="card-text mt-3" align="justify">Programming in Python, C, C#, MATLAB, R Studio and bash. 
+                                Proficient in using Linux OS and its commandline. knowledge and application of programming concepts like
+                                Parallel programming, Data analysis, Algorithms and Data Structures. Critical thinking and analysis.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+         <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-shield-alt'></i>
+                            <h4 class="card-title mt-3">Collaboration</h4>
+                            <p class="card-text mt-3">Collaboration and working with teams with version control systems like Git, Github and Azure Dev Ops.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+     <!--   <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-wrench'></i>
+                            <h4 class="card-title mt-3">QA</h4>
+                            <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                                Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p>
+                        </div>
+                    </div>  
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- skills section-->
+
+    <section id="skills" style="margin-top:25px">
+        <div class="container">
+            <h1 class="text-center">Skills</h1>
+            <div class="row">
+                <div class="col mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4>HTML</h4>
+                            <div class="progress" role="progressbar" aria-label="Example 20px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 20px">
+                                <div class="progress-bar" style="width: 90%"></div>
+                              </div>
+                            <!-- <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p> -->
+                        </div>
+                    </div>  
+                </div>
+            </div>   
+            <div class="row">
+                <div class="col mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4>CSS</h4>
+                            <div class="progress" role="progressbar" aria-label="Example 20px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 20px">
+                                <div class="progress-bar" style="width: 75%"></div>
+                              </div>
+                            <!-- <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p> -->
+                        </div>
+                    </div>  
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4>JS</h4>
+                            <div class="progress" role="progressbar" aria-label="Example 20px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 20px">
+                                <div class="progress-bar" style="width: 80%"></div>
+                              </div>
+                            <!-- <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p> -->
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4>React JS</h4>
+                            <div class="progress" role="progressbar" aria-label="Example 20px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 20px">
+                                <div class="progress-bar" style="width: 55%"></div>
+                              </div>
+                            <!-- <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p> -->
+                        </div>
+                    </div>  
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4>Express JS</h4>
+                            <div class="progress" role="progressbar" aria-label="Example 20px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 20px">
+                                <div class="progress-bar" style="width: 50%"></div>
+                              </div>
+                            <!-- <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p> -->
+                        </div>
+                    </div>  
+                </div>
+            </div> 
+            <div class="row">
+                <div class="col mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4>Node JS</h4>
+                            <div class="progress" role="progressbar" aria-label="Example 20px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 20px">
+                                <div class="progress-bar" style="width: 50%"></div>
+                              </div>
+                            <!-- <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p> -->
+                        </div>
+                    </div>  
+                </div>
+            </div>
+            <div class="row">
+                <div class="col mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4>P5.JS</h4>
+                            <div class="progress" role="progressbar" aria-label="Example 20px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 20px">
+                                <div class="progress-bar" style="width: 70%"></div>
+                              </div>
+                            <!-- <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p> -->
+                        </div>
+                    </div>  
+                </div>
+            </div>             
+            <div class="row">
+                <div class="col mt-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4>ASP.NET</h4>
+                            <div class="progress" role="progressbar" aria-label="Example 20px high" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="height: 20px">
+                                <div class="progress-bar" style="width: 40%"></div>
+                              </div>
+                            <!-- <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.
+                            </p> -->
+                        </div>
+                    </div>  
+                </div>
+            </div>                                                              
+    </section>    
+    
+    <!-- portfolio section-->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/synomemes.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Social Media application.</h4>
+                            <p class="card-text" align="center">Synomemes application for Meme Sharing like twitter</p>
+                            <div class="text-center">
+                                <a href="synomemes.com" class="btn btn-success">View >></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/hall-of-music.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Music Website</h4>
+                            <p class="card-text" align="center">Hall Of Music Website with Top 10 artistes, Music News, Forum and Search Artiste. </p>
+                            <div class="text-center">
+                                <a href="https://drive.google.com/file/d/1VhhgIB022ViWSmetksOQ6dmvMF0MCKeI/view?usp=sharing" class="btn btn-success">View >></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/adventure-boy.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Endless Runner Game</h4>
+                            <p class="card-text" align="center">Adventure Boy endless runner game</p>
+                            <div class="text-center">
+                                <a href="https://drive.google.com/file/d/1sB7f0_SHK5bGmkkUP9Ro5nlQ4ynXQbgu/view?usp=sharing" class="btn btn-success">View >></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/drawing.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">SketchPad Application</h4>
+                            <p class="card-text"  align="center">Drawing Application like paint for drawing shapes, applying color, editing, and saving your drawing as a picture.</p>
+                            <div class="text-center">
+                                <a href="https://drive.google.com/file/d/1vb6eSfj2SunOeOrz1r2920rYn6AGeYDb/view?usp=sharing" class="btn btn-success">View >></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/parksite.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Theme Park site</h4>
+                            <p class="card-text"  align="center">Pokemon Website with things to do and ticketting</p>
+                            <div class="text-center">
+                                <a href="https://drive.google.com/file/d/1Gp0GKZrsqFSHHIGrf0tRISSNJRzbTssc/view?usp=sharing" class="btn btn-success">View >></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/TodoList.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Todo List App</h4>
+                            <p class="card-text" align="center">Todo list application</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">View >></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>                    
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/keeper.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Google keep clone</h4>
+                            <p class="card-text" align="center">Keeper google keep clone for taking notes</p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">View >></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>                  
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/datavis.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Data Visualization App</h4>
+                            <p class="card-text" align="center">Visualize data in form of charts</p>
+                            <div class="text-center">
+                                <a href="https://drive.google.com/file/d/1q7Dmq13EouSJ0wsL5rutncu8Mv0F7kba/view?usp=sharing" class="btn btn-success">View >></a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/musicvis.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Music Visualizer</h4>
+                            <p class="card-text" align="center">Visualize music by various components like tempo, rhythm etc.</p>
+                            <div class="text-center">
+                                <a href="https://drive.google.com/file/d/1oFXSBkw0_AIUX9TzqOoKRTTgYP1Ndrak/view?usp=sharing" class="btn btn-success">View >></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/rock-paper-scissors.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Rock-Paper-Scissors</h4>
+                            <p class="card-text" align="center">Rock-paper-scissors game</p>
+                            <div class="text-center">
+                                <a href="https://michaelnchor.github.io/Rock-Paper-Scissors/" class="btn btn-success">View >></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>   
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/onepiece.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Anime Documentation page</h4>
+                            <p class="card-text" align="center">Documentation for one piece characters with nightmode</p>
+                            <div class="text-center">
+                                <a href="https://codepen.io/michaelnchor/pen/OJjgQeG" class="btn btn-success">View >></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>                                                               
+            </div>
+    </section>
+
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                        <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=new+york&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                            </iframe>
+                        </div>
+                        <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+                        <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                        </style>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form>
+                        <input type="text" class="form-control form-control-lg" placeholder="Name">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- footer section-->
+    <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+                <!-- <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a> -->
+                <a href="www.linkedin.com/in/nchormichael" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/MichaelNchor" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="twitter.com/MichaelNchor" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/nchormichael/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <!-- <a href="https://www.twitch.tv/" target="_blank"><i class="fab fa-twitch"></i></a> -->
+            </div>
+            <div style="font-size: 20rem">Copyright © <span id="copyright"></span></div>
+        </div>
+    </footer>
+
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>
